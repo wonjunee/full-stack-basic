@@ -1,4 +1,5 @@
 import webbrowser
 
-time.sleep(10)
-webbrowser.open("http://www.youtub.com")
+for i in range(3):
+	time.sleep(10)
+	webbrowser.open("http://www.youtub.com")
